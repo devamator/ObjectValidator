@@ -13,7 +13,7 @@ namespace ObjectValidator
                 return Enumerable.Empty<ValidationResult>();
 
             var context = new ValidationContext(value, null, null);
-            return validatableValue.Validate(context);
+            return validatableValue.Validate(context) ?? Enumerable.Empty<ValidationResult>();
         }
     }
 }
