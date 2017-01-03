@@ -3,9 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectValidator", "ObjectValidator\ObjectValidator.csproj", "{98BE93E2-13C8-4930-86A5-121C1DFE908A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectValidator", "src\ObjectValidator\ObjectValidator.csproj", "{98BE93E2-13C8-4930-86A5-121C1DFE908A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectValidator.Tests", "ObjectValidator.Tests\ObjectValidator.Tests.csproj", "{FC0EAA44-A5E6-4B29-B2AA-4C5D6FFD4AEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectValidator.Tests", "test\ObjectValidator.Tests\ObjectValidator.Tests.csproj", "{FC0EAA44-A5E6-4B29-B2AA-4C5D6FFD4AEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{265D02BF-7327-4CDC-A287-6DF61A32AD0C}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pack", "pack", "{F7FECC95-94E5-4077-A19E-C82230E68089}"
+	ProjectSection(SolutionItems) = preProject
+		pack\DevAmator.ObjectValidator.1.0.0.nupkg = pack\DevAmator.ObjectValidator.1.0.0.nupkg
+		pack\ObjectValidator.nuspec = pack\ObjectValidator.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
