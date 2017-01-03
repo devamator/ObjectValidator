@@ -7,14 +7,22 @@ using System.Linq;
 
 namespace ObjectValidator
 {
+   /// <summary>
+   /// Implamants validator for any objects using <see cref="ValidationAttribute"/> on object properties
+   /// </summary>
    public class ValidatorByDataAnnotations : IValidator
    {
+      /// <summary>
+      /// Performs validation <paramref name="value" />
+      /// </summary>
+      /// <param name="value">Object to validate</param>
+      /// <returns>Validation results</returns>
       public IEnumerable<ValidationResult> Validate(object value)
       {
          return Validate(value, null);
       }
 
-      public IEnumerable<ValidationResult> Validate(object value, ValidationContext context)
+      private IEnumerable<ValidationResult> Validate(object value, ValidationContext context)
       {
          if (value == null)
             return Enumerable.Empty<ValidationResult>();

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DevAmator.ObjectValidator</id>
+    <version>1.0.0</version>
+    <authors>DevAmator</authors>
+    <owners>DevAmator</owners>    
+    <licenseUrl>https://github.com/devamator/ObjectValidator/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/devamator/ObjectValidator</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Validate objects using System.ComponentModel just as MVC or EF</description>
+    <releaseNotes>Validate POCO object using DataAnnotations and object implement IValidatableObject</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>object validation validate validationresult dataannotations</tags>
+  </metadata>
+</package>

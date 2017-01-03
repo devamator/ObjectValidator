@@ -58,7 +58,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ObjectValidator\ObjectValidator.csproj">
+    <ProjectReference Include="..\..\src\ObjectValidator\ObjectValidator.csproj">
       <Project>{98be93e2-13c8-4930-86a5-121c1dfe908a}</Project>
       <Name>ObjectValidator</Name>
     </ProjectReference>
